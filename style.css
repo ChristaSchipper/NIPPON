@@ -5,3 +5,10 @@
 }
 
 
+.navbar {
+    position: fixed;
+    width: 212px;
+    height: 1117px;
+    top: 0;
+    left: -5px;
+  }
