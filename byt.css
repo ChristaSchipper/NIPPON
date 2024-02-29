@@ -247,3 +247,35 @@ a, a:visited, a:hover, a:active {
     display: block;
     opacity: 1;
 }
+
+
+
+/* Custom back button STYLING */ 
+.custom-back-button img {
+    width: 27px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.custom-back-button {
+    position: absolute;
+    left: 14%;
+    top: 37%;
+    color: #fff;
+    padding: 5px 5px;
+    font-size: 18px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 40px;
+  }
+  
+  
+  .custom-back-button {
+    background-color: #FDFBF8;
+  }
+  .custom-back-button:hover {
+    background-color: #BAD7D3;
+}
+
+
+
