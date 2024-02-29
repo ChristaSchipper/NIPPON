@@ -1,5 +1,30 @@
 /* BYT OPSKRIFT STYLING */ 
 
+
+#forside_bytopskrift {
+    width: 88%;
+    text-align: center;
+}
+
+#forside_bytopskrift h3 {
+    position: absolute;
+    left: 24%;
+    top: 12%;
+    font-size: 4vw;
+    color: #FDFBF8;
+}
+
+#forside_bytopskrift p {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    text-align: center;
+    color: #FBF1E0;
+    font-size: 2.5vw;
+    font-weight: 100;
+    height: 10vh;
+}
+
 .byt_billede {
     background-color: #FDFBF8;
 }
