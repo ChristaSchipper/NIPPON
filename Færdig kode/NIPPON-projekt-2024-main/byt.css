@@ -1,0 +1,126 @@
+/* BYT OPSKRIFT STYLING */ 
+
+.byt_billede {
+    background-color: #FDFBF8;
+}
+
+
+.bytopskrift img:hover {
+    cursor: pointer;
+}
+
+.container{
+    display:flex;
+    position:absolute;
+    left: 12%;
+    top: 48%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bytitem{
+    width: 300px;
+    height: 375px;
+    background-color: #FDFBF8;
+    margin: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 62px;
+    align-items: center;
+}
+
+.bytitem img{
+  max-width: 100%;
+}
+
+.container h3 {
+    font-size: 1.5vw;
+}
+
+/* BYT BUTTON STYLING */
+.cta-button {
+    background-color: #8B3333;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .cta-button:hover,
+.cta-button-design:hover{
+  background-color: #f24444;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+
+
+/*  TIL FORSIDE STEPBYSTEP STYLING */
+.stepbystep{
+    background-color: #BAD7D3;
+    display:flex;
+    gap: 20px;
+    position:absolute;
+    padding: 5px;
+    height: 45vh;
+    left: 12%;
+    top: 220%;
+}
+
+.step_item{
+    margin: 20px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+}
+
+.step_item p{
+    padding-bottom: 8px;
+}
+
+.step_item img{
+    max-width: 100%;
+  }
+
+#step2, #step4 {
+    align-self: flex-end;
+}
+
+#step1, #step3 {
+    align-self: flex-start;
+  }
+
+#kat {
+  align-items: flex-end;  
+}
+
+.kvalitet_ingredienser{
+    background-color: #FFF7EA;
+    display:flex;
+    gap: 20px;
+    position:absolute;
+    padding: 5px;
+    height: 45vh;
+    left: 12%;
+    top: 280%;
+    text-align: center;
+}
+
+.kvalitet_ingredienser img{
+    flex-grow: 0;
+}
+
+.kvalitet_ingredienser p {
+    padding-top: 25px;
+}
+
+.kvalitet_ingredienser h3 {
+    padding-top: 25px;
+}
